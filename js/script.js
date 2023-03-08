@@ -194,11 +194,11 @@ modalBody.addEventListener('click', (event) => {
 })
 
 const themeLight = () => {
-    btnTheme.srcset = '../assets/light-mode.svg';
-    logo.srcset = '../assets/logo-dark.png';
-    btnNext.srcset = '../assets/arrow-right-dark.svg';
-    btnPrev.srcset = '../assets/arrow-left-dark.svg';
-    modalClose.srcset = '../assets/close-dark.svg'
+    btnTheme.srcset = './assets/light-mode.svg';
+    logo.srcset = './assets/logo-dark.png';
+    btnNext.srcset = './assets/arrow-right-dark.svg';
+    btnPrev.srcset = './assets/arrow-left-dark.svg';
+    modalClose.srcset = './assets/close-dark.svg'
     root.style.setProperty('--background', '#FFF');
     root.style.setProperty('--text-color', '#1b2028');
     root.style.setProperty('--bg-secondary', '#ededed');
@@ -206,11 +206,11 @@ const themeLight = () => {
 }
 
 const themeDark = () => {
-    btnTheme.srcset = '../assets/dark-mode.svg';
-    logo.srcset = '../assets/logo.svg';
-    btnNext.srcset = '../assets/arrow-right-light.svg';
-    btnPrev.srcset = '../assets/arrow-left-light.svg';
-    modalClose.srcset = '../assets/close.svg'
+    btnTheme.srcset = './assets/dark-mode.svg';
+    logo.srcset = './assets/logo.svg';
+    btnNext.srcset = './assets/arrow-right-light.svg';
+    btnPrev.srcset = './assets/arrow-left-light.svg';
+    modalClose.srcset = './assets/close.svg'
     root.style.setProperty('--background', '#1B2028');
     root.style.setProperty('--text-color', '#FFF');
     root.style.setProperty('--bg-secondary', '#2D3440');
